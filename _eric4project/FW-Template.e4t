@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-4.2.dtd">
+<!-- eric4 tasks file for project FW-Template -->
+<!-- Saved: 2012-11-15, 20:24:37 -->
+<Tasks version="4.2">
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: implement IconManagerError for this class</Summary>
+    <Description></Description>
+    <Created>2012-11-11, 23:17:10</Created>
+    <Resource>
+      <Filename>IconManager.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: implement IconManagerError for this class</Summary>
+    <Description></Description>
+    <Created>2012-11-12, 20:00:07</Created>
+    <Resource>
+      <Filename>services/IconManager.py</Filename>
+      <Linenumber>68</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: implement user settable margin here</Summary>
+    <Description></Description>
+    <Created>2012-11-12, 20:47:15</Created>
+    <Resource>
+      <Filename>ViewManager.py</Filename>
+      <Linenumber>44</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: implement user settable margin here</Summary>
+    <Description></Description>
+    <Created>2012-11-12, 20:56:13</Created>
+    <Resource>
+      <Filename>gui/MultiViewManager.py</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: enhance this module, to enable more generic setup by config parameters</Summary>
+    <Description></Description>
+    <Created>2012-11-12, 21:40:15</Created>
+    <Resource>
+      <Filename>gui/ViewManager.py</Filename>
+      <Linenumber>6</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: Make setup of main window and view manager available via user configuration</Summary>
+    <Description></Description>
+    <Created>2012-11-15, 20:19:49</Created>
+    <Resource>
+      <Filename>Application.py</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: replace print statement by information at the status line</Summary>
+    <Description></Description>
+    <Created>2012-11-15, 20:22:04</Created>
+    <Resource>
+      <Filename>services/ApplicationConfig.py</Filename>
+      <Linenumber>44</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: Implement a way, that enables a fully flexible way of configuration by the user.</Summary>
+    <Description></Description>
+    <Created>2012-11-15, 20:22:04</Created>
+    <Resource>
+      <Filename>services/ApplicationConfig.py</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: implement handling of IOError while reading config file</Summary>
+    <Description></Description>
+    <Created>2012-11-15, 20:22:04</Created>
+    <Resource>
+      <Filename>services/ApplicationConfig.py</Filename>
+      <Linenumber>71</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: replace print statement by information at the status line</Summary>
+    <Description></Description>
+    <Created>2012-11-15, 20:22:04</Created>
+    <Resource>
+      <Filename>services/ApplicationConfig.py</Filename>
+      <Linenumber>84</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: complete list and explanation for config data</Summary>
+    <Description></Description>
+    <Created>2012-11-15, 20:22:04</Created>
+    <Resource>
+      <Filename>services/ApplicationConfig.py</Filename>
+      <Linenumber>151</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project FW-Template -->
+<!-- Saved: 2012-12-05, 20:11:31 -->
+<!-- Copyright (C) 2012 Juergen Baumeister, ruppert_ba@web.de -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>This is only a template, to be used as a starting point for some biger project</Description>
+  <Version>0.1</Version>
+  <Author>Juergen Baumeister</Author>
+  <Email>ruppert_ba@web.de</Email>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>Application.py</Source>
+    <Source>model/__init__.py</Source>
+    <Source>gui/__init__.py</Source>
+    <Source>ApplicationError.py</Source>
+    <Source>icons/__init__.py</Source>
+    <Source>ModelViewManager.py</Source>
+    <Source>model/Model.py</Source>
+    <Source>services/__init__.py</Source>
+    <Source>services/IconManager.py</Source>
+    <Source>services/ApplicationConfig.py</Source>
+    <Source>gui/MultiViewManager.py</Source>
+    <Source>gui/ViewManager.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+    <Other>gui/test</Other>
+  </Others>
+  <MainScript>Application.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>
