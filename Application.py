@@ -1,5 +1,6 @@
+# coding=utf8
 """
- Copyright (C) 2012 Jürgen Baumeister
+ Copyright (C) 2012 JÃ¼rgen Baumeister
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
@@ -46,6 +47,10 @@ class Application(QtGui.QMainWindow):
     needed in the application. See __init__ method for the implementation
     details
     """
+    
+    # Signal to create a new model view pait.
+    sigCreateModelView = QtCore.pyqtSignal(object, object)
+    
     #=================================================================================================
     # initializing the application class
     #=================================================================================================
@@ -145,6 +150,10 @@ class Application(QtGui.QMainWindow):
         """
         self.view = ViewManager()
         self.setCentralWidget(self.view)
+        
+    def createModelViewPair(self):
+        
+        self.sigCreateModelView.emit('model', 'view')
 
     #=================================================================================================
     # slot implementations for the application

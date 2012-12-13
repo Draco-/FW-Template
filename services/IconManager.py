@@ -1,5 +1,6 @@
+# coding=utf8
 """
- Copyright (C) 2012 Jürgen Baumeister
+ Copyright (C) 2012 JÃ¼rgen Baumeister
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
@@ -74,9 +75,9 @@ class IconManager(QtCore.QObject):
         """
         try:
             iconLoc = self._getIconLocation(search_path, self._icons)
-            print iconLoc
+            #print iconLoc
             if not iconLoc:
-                print 'Default Icon'
+                #print 'Default Icon'
                 iconLoc = 'icons/default.png'
                 #icon = self.getDefaultIcon()
         except ApplicationError, e:
