@@ -44,10 +44,7 @@ class mut_TestCase(unittest.TestCase):
         """
         Implement the sourrounding for the test case
         """
-        # The QApplication object is necessary just to enable creation of a QWidget object (Application.py in this case)
         self.app = QtGui.QApplication([])
-        
-        # For testing the signal communication of our Application object, we need a stub of an ModelViewManager
         self.mv_manager = stub_ModelViewManager()
         print "setUp called\n"
         
@@ -59,7 +56,8 @@ class mut_TestCase(unittest.TestCase):
         
     def checkInstantiation(self):
         """
-        Check, if it is possible to instantiate an object of class application
+        Check, if it is possible to instantiate an object of class
+        application
         """
         obj_ut = None
         # check if application object could be instantiated
@@ -74,16 +72,13 @@ class mut_TestCase(unittest.TestCase):
         assert ('exitApp' in obj_ut.actions.keys()) == True, 'Application actions not properly implemented'
         #print type(obj_ut.actions['exitApp']).__name__
         assert type(obj_ut.actions['exitApp']).__name__ == 'QAction',  'Action exitApp not properly implemented'
-        # TODO: For a real application insert other action tests here
 
     def checkSignals(self):
         """
         Check if signal flow between Application class and its sub and helper classes works
         """
-        obj_ut = Application() # it's already tested, that this id possible
-        # Connect the sigCreateModelView signal to a ModelViewManager (in this case a stub)
+        obj_ut = Application()
         obj_ut.sigCreateModelView.connect(self.mv_manager.slot_createModelView)
-        # Trigger the signal from the application object by calling its createModelViewPair method
         obj_ut.createModelViewPair()
         assert self.mv_manager.signal_create == True,  'Signal sigCreateModelView not recieved'
         
@@ -98,19 +93,12 @@ class mut_TestCase(unittest.TestCase):
 # Helper stub classes
 #=====================================================================================================
 class stub_ModelViewManager(QtCore.QObject):
-    """
-    This is just a stub class for a ModelViewManager to do the testing of  the
-    Application class on its own
-    """
 
     def __init__(self,  *args):
         QtCore.QObject.__init__(self, *args)
         self.signal_create = False
         
     def slot_createModelView(self, modclass,  viewclass):
-        """
-        A slot, that can be connected to a signal        
-        """
         self.signal_create = True
 
 

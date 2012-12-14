@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project FW-Template -->
-<!-- Saved: 2012-12-13, 21:11:10 -->
+<!-- Saved: 2012-12-14, 21:27:04 -->
 <!-- Copyright (C) 2012 Juergen Baumeister, ruppert_ba@web.de -->
 <Project version="4.6">
   <Language>en</Language>
@@ -26,6 +26,8 @@
     <Source>gui/MultiViewManager.py</Source>
     <Source>gui/ViewManager.py</Source>
     <Source>test_suite/__init__.py</Source>
+    <Source>test_suite/Application_Test.py</Source>
+    <Source>Application_Test.py</Source>
   </Sources>
   <Forms>
   </Forms>
